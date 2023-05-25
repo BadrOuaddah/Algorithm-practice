@@ -2,7 +2,7 @@ package com.badr.algorithm;
 
 import java.util.Scanner;
 
-public class javaStdInStdOutTwo {
+public class JavaStdInStdOutTwo {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();

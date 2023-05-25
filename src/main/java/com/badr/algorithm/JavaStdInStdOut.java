@@ -1,7 +1,7 @@
 package com.badr.algorithm;
 import java.util.*;
 
-public class javaStdInStdOut {
+public class JavaStdInStdOut {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
