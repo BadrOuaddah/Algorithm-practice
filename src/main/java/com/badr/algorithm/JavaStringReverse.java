@@ -1,5 +1,4 @@
 package com.badr.algorithm;
-import java.io.*;
 import java.util.*;
 
 public class JavaStringReverse {
@@ -23,7 +22,23 @@ public class JavaStringReverse {
     }
 
     private static void secondSolution(String A) {
-    //TODO: implement to second solution !!!
-
+        int size = A.length();
+        char normalA, reverseA;
+        StringBuilder reverseBuilder = new StringBuilder();
+        for (int i = 0; i < size; i++) {
+            normalA = A.charAt(i);
+        }
+        for (int i = size - 1; i >= 0; i--) {
+            reverseA = A.charAt(i);
+            reverseBuilder.append(reverseA);
+        }
+        String reverseString = reverseBuilder.toString();
+        boolean equalsOneTwo = A.equals(reverseString);
+        if (equalsOneTwo) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
     }
 }
+
