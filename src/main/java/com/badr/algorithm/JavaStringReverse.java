@@ -23,11 +23,8 @@ public class JavaStringReverse {
 
     private static void secondSolution(String A) {
         int size = A.length();
-        char normalA, reverseA;
+        char  reverseA;
         StringBuilder reverseBuilder = new StringBuilder();
-        for (int i = 0; i < size; i++) {
-            normalA = A.charAt(i);
-        }
         for (int i = size - 1; i >= 0; i--) {
             reverseA = A.charAt(i);
             reverseBuilder.append(reverseA);
