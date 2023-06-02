@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="" />
+    <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaSubstringComparisons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaSubstringComparisons.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
       <recent name="C:\Users\Admin\Desktop\Algo\Algorithm-practice\src\main\java\com\badr\algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaDateAndTime">
+  <component name="RunManager" selected="Application.JavaSubstringComparisons">
     <configuration name="JavaDateAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaDateAndTime" />
       <module name="Algorithm-practice.main" />
@@ -86,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaSubstringComparisons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaSubstringComparisons" />
+      <module name="Algorithm-practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.badr.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaSubstringComparisons" />
         <item itemvalue="Application.JavaDateAndTime" />
         <item itemvalue="Application.JavaStaticInitializerBlock" />
         <item itemvalue="Application.JavaLoopsOne" />

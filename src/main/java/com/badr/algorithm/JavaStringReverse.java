@@ -7,7 +7,12 @@ public class JavaStringReverse {
 
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
-        /* Enter your code here. Print output to STDOUT. */
+        firstSolution(A);
+//        secondSolution(A);
+
+    }
+
+    private static void firstSolution(String A) {
         String reverse = new StringBuilder(A).reverse().toString();
         if (A.equals(reverse)) {
             System.out.println("Yes");
@@ -15,5 +20,10 @@ public class JavaStringReverse {
         else {
             System.out.println("No");
         }
+    }
+
+    private static void secondSolution(String A) {
+    //TODO: implement to second solution !!!
+
     }
 }
