@@ -5,4 +5,8 @@ public class JavaHelloWorld {
         System.out.println("Hello, World.");
         System.out.println("Hello, Java.");
     }
+
+    public int functionToTest(String input){
+        return input.length();
+    }
 }
