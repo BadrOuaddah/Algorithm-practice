@@ -9,6 +9,6 @@ class JavaHelloWorldTest {
     @Test
     void functionToTest() {
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
-        assertTrue(javaHelloWorld.functionToTest("badr")==4);
+        assertTrue(javaHelloWorld.functionToTest("Hello")==5);
     }
 }
