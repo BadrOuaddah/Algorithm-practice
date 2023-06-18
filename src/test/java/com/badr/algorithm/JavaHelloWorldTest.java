@@ -1,14 +1,15 @@
 package com.badr.algorithm;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-class JavaHelloWorldTest {
+public class JavaHelloWorldTest {
+    JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
 
     @Test
-    void functionToTest() {
-        JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
-        assertTrue(javaHelloWorld.functionToTest("Hello")==5);
+    public void testLength() {
+        Assert.assertEquals(13,javaHelloWorld.functionToTest("Hello, World."));
     }
 }
