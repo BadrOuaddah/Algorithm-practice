@@ -2,3 +2,6 @@
 # Algorithm-practice (JAVA VERSION) ☕
 Here is a set of exercises ✍️ or challenges 👊 hackerRank solved ✔️
 
+## Jacoco Badge
+![Coverage](.github/badges/jacoco.svg)
+
