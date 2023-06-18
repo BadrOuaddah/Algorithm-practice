@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/badr/algorithm/JavaHelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/badr/algorithm/JavaHelloWorldTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,22 +62,9 @@
       <recent name="com.badr.algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JavaHelloWorldTest">
+  <component name="RunManager" selected="Gradle.JavaAnagramsTest">
     <configuration name="JavaAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaAnagrams" />
-      <module name="Algorithm-practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.badr.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaDateAndTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaDateAndTime" />
       <module name="Algorithm-practice.main" />
       <extension name="coverage">
         <pattern>
@@ -113,6 +102,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaAnagramsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.badr.algorithm.JavaAnagramsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="JavaHelloWorldTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -138,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JavaAnagramsTest" />
         <item itemvalue="Gradle.JavaHelloWorldTest" />
         <item itemvalue="Application.JavaHelloWorld" />
         <item itemvalue="Application.JavaAnagrams" />
         <item itemvalue="Application.JavaSubstringComparisons" />
-        <item itemvalue="Application.JavaDateAndTime" />
       </list>
     </recent_temporary>
   </component>
@@ -159,5 +171,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithm_practice$JavaHelloWorldTest.ic" NAME="JavaHelloWorldTest Coverage Results" MODIFIED="1687112071701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algorithm_practice$JavaAnagramsTest.ic" NAME="JavaAnagramsTest Coverage Results" MODIFIED="1687116509623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

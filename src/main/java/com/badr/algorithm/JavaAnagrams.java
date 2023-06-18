@@ -1,5 +1,5 @@
 package com.badr.algorithm;
-import java.io.*;
+
 import java.util.*;
 
 public class JavaAnagrams {
@@ -22,11 +22,13 @@ public class JavaAnagrams {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        String a = scan.next();
-        String b = scan.next();
-        scan.close();
-        boolean ret = isAnagram(a, b);
-        System.out.println( (ret) ? "Anagrams" : "Not Anagrams" );
+        String a_1 = "Madam";
+        String b_1 = "Madam";
+        boolean ret_1 = isAnagram(a_1, b_1);
+        System.out.println( (ret_1) ? "Anagrams" : "Not Anagrams" );
+        String a_2 = "Hello";
+        String b_2 = "Madam";
+        boolean ret_2 = isAnagram(a_2, b_2);
+        System.out.println( (ret_2) ? "Anagrams" : "Not Anagrams" );
     }
 }
