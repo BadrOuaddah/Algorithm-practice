@@ -15,14 +15,12 @@ public class JavaSubstringComparisons {
                 smallest = temp;
             }
         }
-        return smallest + "\n" + largest;
+        return smallest + " " + largest;
     }
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String s = scan.next();
-        int k = scan.nextInt();
-        scan.close();
+        String s = "welcometojava";
+        int k = 3;
         System.out.println(getSmallestAndLargest(s, k));
     }
 }

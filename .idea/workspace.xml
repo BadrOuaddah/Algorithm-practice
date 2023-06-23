@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaInstanceOfKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaInstanceOfKeyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaSubstringComparisons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaSubstringComparisons.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +61,9 @@
       <recent name="com.badr.algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JavaInstanceOfKeywordTest.whenOnlyListhasHackerInstanceShouldReturnCorrectResult">
-    <configuration name="JavaInstanceOfKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaInstanceOfKeyword" />
+  <component name="RunManager" selected="Gradle.JavaSubstringComparisonsTest">
+    <configuration name="JavaSubstringComparisons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaSubstringComparisons" />
       <module name="Algorithm-practice.main" />
       <extension name="coverage">
         <pattern>
@@ -74,29 +74,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="JavaAnagramsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.badr.algorithm.JavaAnagramsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="JavaInstanceOfKeywordTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -167,13 +144,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="JavaSubstringComparisonsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.badr.algorithm.JavaSubstringComparisonsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JavaInstanceOfKeywordTest.whenOnlyListhasHackerInstanceShouldReturnCorrectResult" />
+        <item itemvalue="Gradle.JavaSubstringComparisonsTest" />
+        <item itemvalue="Application.JavaSubstringComparisons" />
         <item itemvalue="Gradle.JavaInstanceOfKeywordTest" />
+        <item itemvalue="Gradle.JavaInstanceOfKeywordTest.whenOnlyListhasHackerInstanceShouldReturnCorrectResult" />
         <item itemvalue="Gradle.JavaInstanceOfKeywordTest.whenOnlyListHasStudentInstanceShouldReturnCorrectResult" />
-        <item itemvalue="Application.JavaInstanceOfKeyword" />
-        <item itemvalue="Gradle.JavaAnagramsTest" />
       </list>
     </recent_temporary>
   </component>
