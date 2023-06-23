@@ -9,7 +9,7 @@ public class JavaSubstringComparisonsTest {
 
     JavaSubstringComparisons javaSubstringComparisons = new JavaSubstringComparisons();
     @Test
-    public void getG() {
+    public void getSmallestAndLargest() {
         Assert.assertEquals("ava wel",javaSubstringComparisons.getSmallestAndLargest("welcometojava",3));
     }
 }
