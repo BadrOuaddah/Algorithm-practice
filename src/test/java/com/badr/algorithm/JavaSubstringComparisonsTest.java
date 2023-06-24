@@ -12,5 +12,15 @@ public class JavaSubstringComparisonsTest {
     public void getSmallestAndLargest() {
         Assert.assertEquals("ava wel",javaSubstringComparisons.getSmallestAndLargest("welcometojava",3));
     }
+
+    @Test
+    public void getSmallestAndLargestWhenStringIsEmpty(){
+        Assert.assertEquals("empty",javaSubstringComparisons.getSmallestAndLargest("",3));
+    }
+//
+//    @Test
+//    void getSmallestAndLargestWhenStringKIsZero(){
+//        Assert.assertEquals("",javaSubstringComparisons.getSmallestAndLargest("",3));
+//    }
 }
 
