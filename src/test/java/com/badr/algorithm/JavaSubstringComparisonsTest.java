@@ -15,12 +15,22 @@ public class JavaSubstringComparisonsTest {
 
     @Test
     public void getSmallestAndLargestWhenStringIsEmpty(){
-        Assert.assertEquals("empty",javaSubstringComparisons.getSmallestAndLargest("",3));
+        Assert.assertEquals(" ",javaSubstringComparisons.getSmallestAndLargest("",3));
     }
-//
-//    @Test
-//    void getSmallestAndLargestWhenStringKIsZero(){
-//        Assert.assertEquals("",javaSubstringComparisons.getSmallestAndLargest("",3));
-//    }
+
+    @Test
+    public void getSmallestAndLargestWhenStringKIsZero(){
+        Assert.assertEquals(" ",javaSubstringComparisons.getSmallestAndLargest("TestString",0));
+    }
+
+    @Test
+    public void getSmallestAndLargestWhenStringKIsNegative(){
+        Assert.assertEquals(" ",javaSubstringComparisons.getSmallestAndLargest("TestString",-1));
+    }
+    @Test
+    public void getSmallestAndLargestWhenStringKIsBiggerThanLengthOfString(){
+        Assert.assertEquals(" ",javaSubstringComparisons.getSmallestAndLargest("TestString",100));
+    }
+
 }
 
