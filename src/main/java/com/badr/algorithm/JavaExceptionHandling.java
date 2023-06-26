@@ -14,7 +14,6 @@ class MyCalculator {
         else{
             return (int)(Math.pow(n, p));
         }
-
     }
 }
 public class JavaExceptionHandling {
