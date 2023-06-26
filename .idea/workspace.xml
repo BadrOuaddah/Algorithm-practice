@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaSubstringComparisons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaSubstringComparisons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/badr/algorithm/JavaSubstringComparisonsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/badr/algorithm/JavaSubstringComparisonsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +60,7 @@
       <recent name="com.badr.algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringKIsZero">
-    <configuration name="JavaSubstringComparisons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.badr.algorithm.JavaSubstringComparisons" />
-      <module name="Algorithm-practice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.badr.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.JavaSubstringComparisonsTest">
     <configuration name="JavaSubstringComparisonsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,6 +130,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringKIsNegative" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.badr.algorithm.JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringKIsNegative&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringKIsZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -170,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JavaSubstringComparisonsTest" />
+        <item itemvalue="Gradle.JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringKIsNegative" />
         <item itemvalue="Gradle.JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringKIsZero" />
         <item itemvalue="Gradle.JavaSubstringComparisonsTest.getSmallestAndLargestWhenStringIsEmpty" />
         <item itemvalue="Gradle.JavaSubstringComparisonsTest.getSmallestAndLargest" />
-        <item itemvalue="Gradle.JavaSubstringComparisonsTest" />
-        <item itemvalue="Application.JavaSubstringComparisons" />
       </list>
     </recent_temporary>
   </component>
