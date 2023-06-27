@@ -1,10 +1,6 @@
 package com.badr.algorithm;
 
-import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.ArrayList;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class JavaExceptionHandlingTest {
@@ -13,9 +9,7 @@ public class JavaExceptionHandlingTest {
     @Test
     public void testExceptionWhenNumberIsPositive() throws Exception {
         myCalculator.power(1,2);
-
     }
-
     @Test(expected = Exception.class)
     public void testExceptionWhenNumberIsNegative() throws Exception {
         myCalculator.power(-1,2);
