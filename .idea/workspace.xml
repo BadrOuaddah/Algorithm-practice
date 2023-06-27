@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/JavaExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/badr/algorithm/JavaExceptionHandlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/badr/algorithm/JavaExceptionHandlingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,6 +200,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithm_practice$JavaHelloWorldTest.ic" NAME="JavaHelloWorldTest Coverage Results" MODIFIED="1687112071701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algorithm_practice$JavaExceptionHandlingTest.ic" NAME="JavaExceptionHandlingTest Coverage Results" MODIFIED="1687864025356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algorithm_practice$JavaAnagramsTest.ic" NAME="JavaAnagramsTest Coverage Results" MODIFIED="1687116509623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algorithm_practice$JavaExceptionHandlingTest_testExceptionWhenNumberIsPositive.ic" NAME="JavaExceptionHandlingTest.testExceptionWhenNumberIsPositive Coverage Results" MODIFIED="1687863820353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
