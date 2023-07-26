@@ -22,7 +22,7 @@ class FoodFactory {
         switch(order){
             case "cake":
                 return new Cake();
-            case "pizaa":
+            case "pizza":
                 return new Pizza();
             default:
                 return null;
