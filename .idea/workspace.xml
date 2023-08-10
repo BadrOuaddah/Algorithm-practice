@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9f99c6-ad65-4e8b-aed2-405ea19c636c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/badr/algorithm/ValidUsernameRegularExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
